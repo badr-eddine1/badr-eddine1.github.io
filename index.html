@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Badr-Eddine Ait Ben Ijja — Ingénieur IA &amp; Data Science</title>
+<meta name="description" content="Portfolio de Badr-Eddine Ait Ben Ijja, étudiant ingénieur en IA &amp; Data Science à l'EMSI Marrakech — projets de machine learning, deep learning, RAG et automatisation par IA.">
+
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="alternate icon" href="favicon.ico">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,600;0,700;0,900;1,500&family=Work+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="navrow">
+    <div class="brand"><span class="dot"></span> AIT&nbsp;BEN&nbsp;IJJA</div>
+    <nav class="links">
+      <a href="#profil" class="lang-fr">Profil</a><a href="#profil" class="lang-en">Profile</a>
+      <a href="#experience" class="lang-fr">Expérience</a><a href="#experience" class="lang-en">Experience</a>
+      <a href="#projets" class="lang-fr">Projets</a><a href="#projets" class="lang-en">Projects</a>
+      <a href="#competences" class="lang-fr">Compétences</a><a href="#competences" class="lang-en">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-controls">
+      <button id="lang-toggle" class="icon-btn mono" type="button" aria-label="Switch language" title="Français / English">EN</button>
+      <button id="theme-toggle" class="icon-btn" type="button" aria-label="Basculer le thème clair/sombre" title="Thème clair / sombre">◐</button>
+    </div>
+  </div>
+</header>
+
+  <section class="hero-cover" id="profil">
+    <div class="hero-bg" aria-hidden="true">
+<svg class="hero-art" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<radialGradient id="bgGrad" cx="72%" cy="28%" r="85%">
+  <stop offset="0%" stop-color="#1c2e24"/>
+  <stop offset="45%" stop-color="#151b14"/>
+  <stop offset="100%" stop-color="#0d0b08"/>
+</radialGradient>
+<filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="6" /></filter>
+</defs>
+<rect x="0" y="0" width="1600" height="900" fill="url(#bgGrad)"/>
+<circle cx="1248" cy="288" r="300" fill="none" stroke="#e0b84a" stroke-width="1" opacity="0.16"/>
+<circle cx="1248" cy="288" r="220" fill="none" stroke="#e0b84a" stroke-width="1" opacity="0.22"/>
+<circle cx="1248" cy="288" r="150" fill="none" stroke="#e0b84a" stroke-width="1.4" opacity="0.28"/>
+<line x1="1548.0" y1="288.0" x2="1560.0" y2="288.0" stroke="#e0b84a" stroke-width="1" opacity="0.18"/>
+<line x1="1537.8" y1="365.6" x2="1549.4" y2="368.8" stroke="#e0b84a" stroke-width="1" opacity="0.18"/>
+<line x1="1507.8" y1="438.0" x2="1518.2" y2="444.0" stroke="#e0b84a" stroke-width="1" opacity="0.18"/>
+<line x1="1460.1" y1="500.1" x2="1468.6" y2="508.6" stroke="#e0b84a" stroke-width="1" opacity="0.18"/>
+<line x1="1398.0" y1="547.8" x2="1404.0" y2="558.2" stroke="#e0b84a" stroke-width="1" opacity="0.18"/>
+<line x1="1325.6" y1="577.8" x2="1328.8" y2="589.4" stroke="#e0b84a" stroke-width="1" opacity="0.18"/>
+<line x1="1248.0" y1="588.0" x2="1248.0" y2="600.0" stroke="#e0b84a" stroke-width="1" opacity="0.18"/>
+<line x1="1170.4" y1="577.8" x2="1167.2" y2="589.4" stroke="#e0b84a" stroke-width="1" opacity="0.18"/>
+<line x1="1098.0" y1="547.8" x2="1092.0" y2="558.2" stroke="#e0b84a" stroke-width="1" opacity="0.18"/>
+<line x1="1035.9" y1="500.1" x2="1027.4" y2="508.6" stroke="#e0b84a" stroke-width="1" opacity="0.18"/>
+<line x1="988.2" y1="438.0" x2="977.8" y2="444.0" stroke="#e0b84a" stroke-width="1" opacity="0.18"/>
+<line x1="958.2" y1="365.6" x2="946.6" y2="368.8" stroke="#e0b84a" stroke-width="1" opacity="0.18"/>
+<line x1="948.0" y1="288.0" x2="936.0" y2="288.0" stroke="#e0b84a" stroke-width="1" opacity="0.18"/>
+<line x1="958.2" y1="210.4" x2="946.6" y2="207.2" stroke="#e0b84a" stroke-width="1" opacity="0.18"/>
+<line x1="988.2" y1="138.0" x2="977.8" y2="132.0" stroke="#e0b84a" stroke-width="1" opacity="0.18"/>
+<line x1="1035.9" y1="75.9" x2="1027.4" y2="67.4" stroke="#e0b84a" stroke-width="1" opacity="0.18"/>
+<line x1="1098.0" y1="28.2" x2="1092.0" y2="17.8" stroke="#e0b84a" stroke-width="1" opacity="0.18"/>
+<line x1="1170.4" y1="-1.8" x2="1167.2" y2="-13.4" stroke="#e0b84a" stroke-width="1" opacity="0.18"/>
+<line x1="1248.0" y1="-12.0" x2="1248.0" y2="-24.0" stroke="#e0b84a" stroke-width="1" opacity="0.18"/>
+<line x1="1325.6" y1="-1.8" x2="1328.8" y2="-13.4" stroke="#e0b84a" stroke-width="1" opacity="0.18"/>
+<line x1="1398.0" y1="28.2" x2="1404.0" y2="17.8" stroke="#e0b84a" stroke-width="1" opacity="0.18"/>
+<line x1="1460.1" y1="75.9" x2="1468.6" y2="67.4" stroke="#e0b84a" stroke-width="1" opacity="0.18"/>
+<line x1="1507.8" y1="138.0" x2="1518.2" y2="132.0" stroke="#e0b84a" stroke-width="1" opacity="0.18"/>
+<line x1="1537.8" y1="210.4" x2="1549.4" y2="207.2" stroke="#e0b84a" stroke-width="1" opacity="0.18"/>
+<line x1="1207.7" y1="22.5" x2="1278.6" y2="41.2" stroke="#4a8a6c" stroke-width="0.8" opacity="0.114"/>
+<line x1="1313.3" y1="609.0" x2="1388.7" y2="628.3" stroke="#4a8a6c" stroke-width="0.8" opacity="0.111"/>
+<line x1="1313.3" y1="609.0" x2="1414.4" y2="556.7" stroke="#4a8a6c" stroke-width="0.8" opacity="0.088"/>
+<line x1="1313.3" y1="609.0" x2="1429.0" y2="698.4" stroke="#4a8a6c" stroke-width="0.8" opacity="0.068"/>
+<line x1="1313.3" y1="609.0" x2="1341.6" y2="485.4" stroke="#4a8a6c" stroke-width="0.8" opacity="0.080"/>
+<line x1="1313.3" y1="609.0" x2="1305.2" y2="606.0" stroke="#4a8a6c" stroke-width="0.8" opacity="0.155"/>
+<line x1="971.1" y1="26.8" x2="946.5" y2="197.4" stroke="#4a8a6c" stroke-width="0.8" opacity="0.051"/>
+<line x1="971.1" y1="26.8" x2="1056.6" y2="160.8" stroke="#4a8a6c" stroke-width="0.8" opacity="0.060"/>
+<line x1="540.9" y1="179.0" x2="598.8" y2="209.5" stroke="#4a8a6c" stroke-width="0.8" opacity="0.119"/>
+<line x1="751.8" y1="530.3" x2="698.2" y2="656.2" stroke="#4a8a6c" stroke-width="0.8" opacity="0.074"/>
+<line x1="1388.7" y1="628.3" x2="1414.4" y2="556.7" stroke="#4a8a6c" stroke-width="0.8" opacity="0.112"/>
+<line x1="1388.7" y1="628.3" x2="1429.0" y2="698.4" stroke="#4a8a6c" stroke-width="0.8" opacity="0.109"/>
+<line x1="1388.7" y1="628.3" x2="1341.6" y2="485.4" stroke="#4a8a6c" stroke-width="0.8" opacity="0.065"/>
+<line x1="1388.7" y1="628.3" x2="1468.0" y2="748.5" stroke="#4a8a6c" stroke-width="0.8" opacity="0.069"/>
+<line x1="1388.7" y1="628.3" x2="1305.2" y2="606.0" stroke="#4a8a6c" stroke-width="0.8" opacity="0.105"/>
+<line x1="1553.4" y1="302.9" x2="1465.5" y2="283.2" stroke="#4a8a6c" stroke-width="0.8" opacity="0.103"/>
+<line x1="1553.4" y1="302.9" x2="1595.8" y2="476.2" stroke="#4a8a6c" stroke-width="0.8" opacity="0.047"/>
+<line x1="1434.1" y1="543.4" x2="1588.6" y2="576.0" stroke="#4a8a6c" stroke-width="0.8" opacity="0.060"/>
+<line x1="1434.1" y1="543.4" x2="1429.0" y2="698.4" stroke="#4a8a6c" stroke-width="0.8" opacity="0.062"/>
+<line x1="1434.1" y1="543.4" x2="1305.2" y2="606.0" stroke="#4a8a6c" stroke-width="0.8" opacity="0.070"/>
+<line x1="1095.4" y1="875.8" x2="1005.7" y2="858.4" stroke="#4a8a6c" stroke-width="0.8" opacity="0.102"/>
+<line x1="1414.4" y1="556.7" x2="1429.0" y2="698.4" stroke="#4a8a6c" stroke-width="0.8" opacity="0.070"/>
+<line x1="1414.4" y1="556.7" x2="1373.8" y2="379.9" stroke="#4a8a6c" stroke-width="0.8" opacity="0.045"/>
+<line x1="1414.4" y1="556.7" x2="1305.2" y2="606.0" stroke="#4a8a6c" stroke-width="0.8" opacity="0.084"/>
+<line x1="598.8" y1="209.5" x2="610.9" y2="42.4" stroke="#4a8a6c" stroke-width="0.8" opacity="0.054"/>
+<line x1="598.8" y1="209.5" x2="730.9" y2="280.5" stroke="#4a8a6c" stroke-width="0.8" opacity="0.065"/>
+<line x1="598.8" y1="209.5" x2="745.1" y2="119.1" stroke="#4a8a6c" stroke-width="0.8" opacity="0.051"/>
+<line x1="1203.6" y1="328.3" x2="1373.8" y2="379.9" stroke="#4a8a6c" stroke-width="0.8" opacity="0.048"/>
+<line x1="698.2" y1="656.2" x2="524.5" y2="648.6" stroke="#4a8a6c" stroke-width="0.8" opacity="0.050"/>
+<line x1="698.2" y1="656.2" x2="836.7" y2="575.1" stroke="#4a8a6c" stroke-width="0.8" opacity="0.059"/>
+<line x1="1588.6" y1="576.0" x2="1507.0" y2="413.0" stroke="#4a8a6c" stroke-width="0.8" opacity="0.045"/>
+<line x1="1429.0" y1="698.4" x2="1468.0" y2="748.5" stroke="#4a8a6c" stroke-width="0.8" opacity="0.120"/>
+<line x1="1429.0" y1="698.4" x2="1305.2" y2="606.0" stroke="#4a8a6c" stroke-width="0.8" opacity="0.062"/>
+<line x1="855.2" y1="241.0" x2="972.4" y2="190.6" stroke="#4a8a6c" stroke-width="0.8" opacity="0.079"/>
+<line x1="855.2" y1="241.0" x2="730.9" y2="280.5" stroke="#4a8a6c" stroke-width="0.8" opacity="0.078"/>
+<line x1="1465.5" y1="283.2" x2="1507.0" y2="413.0" stroke="#4a8a6c" stroke-width="0.8" opacity="0.074"/>
+<line x1="1465.5" y1="283.2" x2="1373.8" y2="379.9" stroke="#4a8a6c" stroke-width="0.8" opacity="0.076"/>
+<line x1="1507.0" y1="413.0" x2="1595.8" y2="476.2" stroke="#4a8a6c" stroke-width="0.8" opacity="0.091"/>
+<line x1="1507.0" y1="413.0" x2="1341.6" y2="485.4" stroke="#4a8a6c" stroke-width="0.8" opacity="0.046"/>
+<line x1="1122.8" y1="236.5" x2="972.4" y2="190.6" stroke="#4a8a6c" stroke-width="0.8" opacity="0.061"/>
+<line x1="946.5" y1="197.4" x2="1056.6" y2="160.8" stroke="#4a8a6c" stroke-width="0.8" opacity="0.087"/>
+<line x1="946.5" y1="197.4" x2="972.4" y2="190.6" stroke="#4a8a6c" stroke-width="0.8" opacity="0.143"/>
+<line x1="524.5" y1="648.6" x2="589.2" y2="568.0" stroke="#4a8a6c" stroke-width="0.8" opacity="0.095"/>
+<line x1="802.3" y1="576.9" x2="836.7" y2="575.1" stroke="#4a8a6c" stroke-width="0.8" opacity="0.138"/>
+<line x1="1341.6" y1="485.4" x2="1305.2" y2="606.0" stroke="#4a8a6c" stroke-width="0.8" opacity="0.080"/>
+<line x1="1468.0" y1="748.5" x2="1467.3" y2="852.3" stroke="#4a8a6c" stroke-width="0.8" opacity="0.094"/>
+<line x1="1029.1" y1="494.8" x2="879.8" y2="529.5" stroke="#4a8a6c" stroke-width="0.8" opacity="0.063"/>
+<line x1="730.9" y1="280.5" x2="745.1" y2="119.1" stroke="#4a8a6c" stroke-width="0.8" opacity="0.058"/>
+<line x1="730.9" y1="280.5" x2="617.5" y2="387.9" stroke="#4a8a6c" stroke-width="0.8" opacity="0.061"/>
+<line x1="589.2" y1="568.0" x2="617.5" y2="387.9" stroke="#4a8a6c" stroke-width="0.8" opacity="0.045"/>
+<circle cx="1207.7" cy="22.5" r="2.3" fill="#e0b84a" opacity="0.652"/>
+<circle cx="1313.3" cy="609.0" r="9.4" fill="#e0b84a" opacity="0.128" filter="url(#softGlow)"/>
+<circle cx="1313.3" cy="609.0" r="3.9" fill="#e0b84a" opacity="0.709"/>
+<circle cx="971.1" cy="26.8" r="2.2" fill="#4a8a6c" opacity="0.452"/>
+<circle cx="540.9" cy="179.0" r="7.9" fill="#4a8a6c" opacity="0.120" filter="url(#softGlow)"/>
+<circle cx="540.9" cy="179.0" r="3.3" fill="#4a8a6c" opacity="0.667"/>
+<circle cx="751.8" cy="530.3" r="8.9" fill="#e0b84a" opacity="0.087" filter="url(#softGlow)"/>
+<circle cx="751.8" cy="530.3" r="3.7" fill="#e0b84a" opacity="0.482"/>
+<circle cx="1388.7" cy="628.3" r="2.5" fill="#e0b84a" opacity="0.594"/>
+<circle cx="1553.4" cy="302.9" r="1.8" fill="#e0b84a" opacity="0.803"/>
+<circle cx="1434.1" cy="543.4" r="8.9" fill="#4a8a6c" opacity="0.139" filter="url(#softGlow)"/>
+<circle cx="1434.1" cy="543.4" r="3.7" fill="#4a8a6c" opacity="0.773"/>
+<circle cx="1095.4" cy="875.8" r="2.6" fill="#4a8a6c" opacity="0.396"/>
+<circle cx="1414.4" cy="556.7" r="9.2" fill="#4a8a6c" opacity="0.101" filter="url(#softGlow)"/>
+<circle cx="1414.4" cy="556.7" r="3.8" fill="#4a8a6c" opacity="0.562"/>
+<circle cx="1278.6" cy="41.2" r="2.2" fill="#e0b84a" opacity="0.488"/>
+<circle cx="598.8" cy="209.5" r="1.9" fill="#e0b84a" opacity="0.352"/>
+<circle cx="1203.6" cy="328.3" r="2.6" fill="#e0b84a" opacity="0.736"/>
+<circle cx="802.5" cy="843.0" r="7.9" fill="#4a8a6c" opacity="0.120" filter="url(#softGlow)"/>
+<circle cx="802.5" cy="843.0" r="3.3" fill="#4a8a6c" opacity="0.669"/>
+<circle cx="698.2" cy="656.2" r="2.0" fill="#e0b84a" opacity="0.481"/>
+<circle cx="1588.6" cy="576.0" r="3.0" fill="#4a8a6c" opacity="0.721"/>
+<circle cx="1429.0" cy="698.4" r="2.2" fill="#e0b84a" opacity="0.626"/>
+<circle cx="855.2" cy="241.0" r="2.1" fill="#f7f1e2" opacity="0.564"/>
+<circle cx="1465.5" cy="283.2" r="7.9" fill="#e0b84a" opacity="0.064" filter="url(#softGlow)"/>
+<circle cx="1465.5" cy="283.2" r="3.3" fill="#e0b84a" opacity="0.355"/>
+<circle cx="1507.0" cy="413.0" r="2.3" fill="#e0b84a" opacity="0.388"/>
+<circle cx="1122.8" cy="236.5" r="3.1" fill="#f7f1e2" opacity="0.792"/>
+<circle cx="946.5" cy="197.4" r="10.1" fill="#4a8a6c" opacity="0.144" filter="url(#softGlow)"/>
+<circle cx="946.5" cy="197.4" r="4.2" fill="#4a8a6c" opacity="0.802"/>
+<circle cx="610.9" cy="42.4" r="1.9" fill="#4a8a6c" opacity="0.623"/>
+<circle cx="1373.8" cy="379.9" r="1.8" fill="#e0b84a" opacity="0.767"/>
+<circle cx="1595.8" cy="476.2" r="9.9" fill="#f7f1e2" opacity="0.115" filter="url(#softGlow)"/>
+<circle cx="1595.8" cy="476.2" r="4.1" fill="#f7f1e2" opacity="0.641"/>
+<circle cx="524.5" cy="648.6" r="8.1" fill="#4a8a6c" opacity="0.076" filter="url(#softGlow)"/>
+<circle cx="524.5" cy="648.6" r="3.4" fill="#4a8a6c" opacity="0.424"/>
+<circle cx="802.3" cy="576.9" r="1.9" fill="#e0b84a" opacity="0.414"/>
+<circle cx="1005.7" cy="858.4" r="9.3" fill="#e0b84a" opacity="0.091" filter="url(#softGlow)"/>
+<circle cx="1005.7" cy="858.4" r="3.9" fill="#e0b84a" opacity="0.504"/>
+<circle cx="1056.6" cy="160.8" r="9.5" fill="#f7f1e2" opacity="0.144" filter="url(#softGlow)"/>
+<circle cx="1056.6" cy="160.8" r="4.0" fill="#f7f1e2" opacity="0.799"/>
+<circle cx="836.7" cy="575.1" r="3.2" fill="#e0b84a" opacity="0.748"/>
+<circle cx="1341.6" cy="485.4" r="8.7" fill="#4a8a6c" opacity="0.140" filter="url(#softGlow)"/>
+<circle cx="1341.6" cy="485.4" r="3.6" fill="#4a8a6c" opacity="0.780"/>
+<circle cx="512.6" cy="291.7" r="1.7" fill="#f7f1e2" opacity="0.799"/>
+<circle cx="1468.0" cy="748.5" r="2.4" fill="#e0b84a" opacity="0.455"/>
+<circle cx="1467.3" cy="852.3" r="1.8" fill="#4a8a6c" opacity="0.475"/>
+<circle cx="587.3" cy="684.5" r="8.6" fill="#e0b84a" opacity="0.072" filter="url(#softGlow)"/>
+<circle cx="587.3" cy="684.5" r="3.6" fill="#e0b84a" opacity="0.401"/>
+<circle cx="1029.1" cy="494.8" r="2.3" fill="#f7f1e2" opacity="0.740"/>
+<circle cx="972.4" cy="190.6" r="3.0" fill="#4a8a6c" opacity="0.792"/>
+<circle cx="730.9" cy="280.5" r="10.0" fill="#4a8a6c" opacity="0.100" filter="url(#softGlow)"/>
+<circle cx="730.9" cy="280.5" r="4.2" fill="#4a8a6c" opacity="0.553"/>
+<circle cx="988.7" cy="465.8" r="1.9" fill="#e0b84a" opacity="0.660"/>
+<circle cx="879.8" cy="529.5" r="2.2" fill="#e0b84a" opacity="0.427"/>
+<circle cx="589.2" cy="568.0" r="2.2" fill="#f7f1e2" opacity="0.815"/>
+<circle cx="1447.3" cy="63.8" r="2.2" fill="#4a8a6c" opacity="0.782"/>
+<circle cx="745.1" cy="119.1" r="9.7" fill="#4a8a6c" opacity="0.151" filter="url(#softGlow)"/>
+<circle cx="745.1" cy="119.1" r="4.0" fill="#4a8a6c" opacity="0.838"/>
+<circle cx="1026.3" cy="706.2" r="8.9" fill="#e0b84a" opacity="0.136" filter="url(#softGlow)"/>
+<circle cx="1026.3" cy="706.2" r="3.7" fill="#e0b84a" opacity="0.755"/>
+<circle cx="617.5" cy="387.9" r="2.7" fill="#4a8a6c" opacity="0.791"/>
+<circle cx="1305.2" cy="606.0" r="10.0" fill="#e0b84a" opacity="0.065" filter="url(#softGlow)"/>
+<circle cx="1305.2" cy="606.0" r="4.2" fill="#e0b84a" opacity="0.362"/>
+<circle cx="192" cy="765" r="260" fill="#2f5d46" opacity="0.1" filter="url(#softGlow)"/>
+<circle cx="80" cy="315" r="180" fill="#2f5d46" opacity="0.07" filter="url(#softGlow)"/>
+</svg>
+    </div>
+    <div class="wrap">
+      <div class="hero-cover-content">
+        <div class="hero-photo"><img src="photo.jpg" alt="Badr-Eddine Ait Ben Ijja"></div>
+        <div class="hero-eyebrow">
+          <span class="lang-fr">Ingénieur IA &amp; Data Science — 5ème année</span>
+          <span class="lang-en">AI &amp; Data Science Engineer — 5th-year student</span>
+        </div>
+        <h1 class="hero-name display">Badr-Eddine<br><em>Ait Ben Ijja</em></h1>
+        <p class="hero-desc lang-fr">Je conçois des systèmes qui transforment des données brutes en décisions&nbsp;: pipelines de scraping, scoring par IA, chatbots RAG, modèles de classification et de prédiction — du prototype jusqu'au déploiement.</p>
+        <p class="hero-desc lang-en">I build systems that turn raw data into decisions: scraping pipelines, AI scoring, RAG chatbots, classification and prediction models — from prototype to deployment.</p>
+        <div class="hero-meta">
+          <span class="lang-fr">📍 <b>Mhamid, Marrakech</b> — mobilité nationale</span>
+          <span class="lang-en">📍 <b>Mhamid, Marrakech</b> — nationwide mobility</span>
+          <span class="lang-fr">🎓 <b>EMSI Marrakech</b>, cycle ingénieur IA &amp; Data Science</span>
+          <span class="lang-en">🎓 <b>EMSI Marrakech</b>, Engineering program — AI &amp; Data Science</span>
+        </div>
+        <div class="cta-row">
+          <a class="btn btn-primary lang-fr" href="mailto:badreddineaitbenijja@gmail.com">Écrire un email</a>
+          <a class="btn btn-primary lang-en" href="mailto:badreddineaitbenijja@gmail.com">Send an email</a>
+          <a class="btn btn-ghost lang-fr" href="cv.pdf" target="_blank" rel="noopener">Voir mon CV (PDF) ↗</a>
+          <a class="btn btn-ghost lang-en" href="cv.pdf" target="_blank" rel="noopener">View my CV (PDF) ↗</a>
+          <a class="btn btn-ghost" href="https://github.com/badr-eddine1" target="_blank" rel="noopener">GitHub ↗</a>
+          <a class="btn btn-ghost" href="https://www.linkedin.com/in/badr-ait-ben-ijja-6a321a283/" target="_blank" rel="noopener">LinkedIn ↗</a>
+        </div>
+        <div class="stats-row">
+          <div class="stat">
+            <div class="stat-num">6</div>
+            <div class="stat-label lang-fr">Projets IA livrés</div>
+            <div class="stat-label lang-en">AI projects shipped</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">3</div>
+            <div class="stat-label lang-fr">Stages effectués</div>
+            <div class="stat-label lang-en">Internships completed</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">15+</div>
+            <div class="stat-label lang-fr">Technologies maîtrisées</div>
+            <div class="stat-label lang-en">Technologies used</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">3</div>
+            <div class="stat-label lang-fr">Langues parlées</div>
+            <div class="stat-label lang-en">Languages spoken</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<div class="wrap">
+
+  <!-- ABOUT -->
+  <section id="about-text-section">
+    <div class="sheet-index"><span class="lang-fr">Note de synthèse</span><span class="lang-en">Summary note</span></div>
+    <h2 class="section-title display lang-fr">À propos</h2>
+    <h2 class="section-title display lang-en">About</h2>
+    <p class="about-text lang-fr">Étudiant en <strong>5ème année</strong> du cycle d'ingénieur en Intelligence Artificielle et Science des Données à l'<strong>EMSI Marrakech</strong>, je me spécialise dans la construction de systèmes IA complets — pas seulement des modèles entraînés en Jupyter, mais des produits qui tournent en continu, scrapent des sources réelles, appellent des LLM en production et notifient de vraies personnes. Mon stage chez <strong>Ecodelta</strong> et mon chatbot RAG pour l'<strong>ONDA</strong> illustrent cette approche : partir d'un besoin métier concret et livrer un système déployé, du scraping jusqu'à l'interface. Je recherche aujourd'hui un <strong>stage de fin d'études (PFE)</strong> de 6 mois pour continuer à construire ce type de solutions dans une équipe expérimentée.</p>
+    <p class="about-text lang-en">A <strong>5th-year</strong> engineering student in Artificial Intelligence and Data Science at <strong>EMSI Marrakech</strong>, I specialize in building complete AI systems — not just models trained in a notebook, but products that run continuously, scrape real sources, call LLMs in production, and notify real people. My internship at <strong>Ecodelta</strong> and my RAG chatbot for <strong>ONDA</strong> illustrate this approach: start from a real business need and ship a deployed system, from scraping to interface. I'm now looking for a 6-month <strong>final-year internship (PFE)</strong> to keep building this kind of solution within an experienced team.</p>
+    <div class="diagram">
+      <svg viewBox="0 0 1200 190" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Ecodelta pipeline diagram">
+        <defs>
+          <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <path d="M0,0 L10,5 L0,10 z" fill="var(--muted)"></path>
+          </marker>
+        </defs>
+        <line x1="120" y1="95" x2="1080" y2="95" stroke="var(--line)" stroke-width="1.5" stroke-dasharray="2 6"></line>
+
+        <line x1="150" y1="95" x2="290" y2="95" stroke="var(--muted)" stroke-width="1.5" marker-end="url(#arrow)"></line>
+        <line x1="370" y1="95" x2="510" y2="95" stroke="var(--muted)" stroke-width="1.5" marker-end="url(#arrow)"></line>
+        <line x1="590" y1="95" x2="730" y2="95" stroke="var(--muted)" stroke-width="1.5" marker-end="url(#arrow)"></line>
+        <line x1="810" y1="95" x2="950" y2="95" stroke="var(--muted)" stroke-width="1.5" marker-end="url(#arrow)"></line>
+
+        <g>
+          <circle cx="80" cy="95" r="46" fill="none" stroke="var(--accent)" stroke-width="2"></circle>
+          <text x="80" y="90" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10" fill="var(--ink)" font-weight="600">marchespublics</text>
+          <text x="80" y="103" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10" fill="var(--muted)">.gov.ma</text>
+        </g>
+
+        <g>
+          <circle cx="330" cy="95" r="46" fill="none" stroke="var(--accent)" stroke-width="2"></circle>
+          <text x="330" y="90" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10" fill="var(--ink)" font-weight="600">Scraper</text>
+          <text x="330" y="103" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10" fill="var(--muted)">Playwright</text>
+        </g>
+
+        <g>
+          <circle cx="550" cy="95" r="46" fill="none" stroke="var(--accent)" stroke-width="2"></circle>
+          <text x="550" y="90" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10" fill="var(--ink)" font-weight="600">Scoring IA</text>
+          <text x="550" y="103" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10" fill="var(--muted)">GPT-4o-mini</text>
+        </g>
+
+        <g>
+          <circle cx="770" cy="95" r="46" fill="none" stroke="var(--accent)" stroke-width="2"></circle>
+          <text x="770" y="90" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10" fill="var(--ink)" font-weight="600">Notification</text>
+          <text x="770" y="103" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10" fill="var(--muted)">SMTP</text>
+        </g>
+
+        <g>
+          <circle cx="1010" cy="95" r="46" fill="var(--accent)" stroke="var(--accent)" stroke-width="2"></circle>
+          <text x="1010" y="90" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10" fill="#fff" font-weight="600">API REST</text>
+          <text x="1010" y="103" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10" fill="#fff">FastAPI</text>
+        </g>
+      </svg>
+      <div class="diagram-caption mono">
+        <span class="lang-fr">Pipeline Ecodelta — collecte automatisée, scoring par IA, notification et exposition via API, orchestrés en continu (APScheduler, cycle 10&nbsp;min).</span>
+        <span class="lang-en">Ecodelta pipeline — automated collection, AI scoring, notification and API exposure, continuously orchestrated (APScheduler, 10-min cycle).</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="sheet-index"><span class="lang-fr">Expérience</span><span class="lang-en">Experience</span></div>
+    <h2 class="section-title display lang-fr">Stages</h2>
+    <h2 class="section-title display lang-en">Internships</h2>
+    <div class="timeline">
+
+      <div class="tl-item current">
+        <div class="tl-dot"></div>
+        <div class="tl-date"><span class="lang-fr">2025 — 2026 · EN COURS</span><span class="lang-en">2025 — 2026 · ONGOING</span></div>
+        <div class="tl-title lang-fr">Plateforme de veille intelligente des appels d'offres</div>
+        <div class="tl-title lang-en">Intelligent public tender monitoring platform</div>
+        <div class="tl-org lang-fr">Stage — Ecodelta, Rabat</div>
+        <div class="tl-org lang-en">Internship — Ecodelta, Rabat</div>
+        <ul class="tl-desc lang-fr">
+          <li>Scraper (Playwright) collectant automatiquement les appels d'offres publics marocains sur marchespublics.gov.ma, filtrés par domaines d'activité.</li>
+          <li>Scoring par IA (OpenAI GPT-4o-mini) évaluant la pertinence de chaque appel d'offres avec justification, alimentant une base PostgreSQL commune.</li>
+          <li>Pipeline de surveillance automatique (APScheduler, cycle 10 min) avec notification email dès détection d'un appel d'offres pertinent.</li>
+          <li>API REST (FastAPI, 10+ endpoints) et interface web (React + Vite) pour la gestion des clients, produits et devis.</li>
+        </ul>
+        <ul class="tl-desc lang-en">
+          <li>Scraper (Playwright) automatically collecting Moroccan public tenders from marchespublics.gov.ma, filtered by relevant business domains.</li>
+          <li>AI scoring (OpenAI GPT-4o-mini) rating the relevance of each tender with a justification, feeding a shared PostgreSQL database.</li>
+          <li>Automated monitoring pipeline (APScheduler, 10-min cycle) with email notification as soon as a relevant tender is detected.</li>
+          <li>REST API (FastAPI, 10+ endpoints) and web interface (React + Vite) for managing clients, products, and quotes.</li>
+        </ul>
+        <div class="tag-row" style="margin-bottom:10px;">
+          <span class="tag">Python</span><span class="tag">Playwright</span><span class="tag">FastAPI</span><span class="tag">PostgreSQL</span><span class="tag">React</span><span class="tag">APScheduler</span><span class="tag">OpenAI API</span>
+        </div>
+        <a class="proj-link lang-fr" href="https://github.com/badr-eddine1/pojetEcoDelta" target="_blank" rel="noopener">Voir le code sur GitHub ↗</a>
+        <a class="proj-link lang-en" href="https://github.com/badr-eddine1/pojetEcoDelta" target="_blank" rel="noopener">View code on GitHub ↗</a>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-date"><span class="lang-fr">Juillet — Sept. 2025</span><span class="lang-en">July — Sept. 2025</span></div>
+        <div class="tl-title lang-fr">Plateforme de géolocalisation des entreprises</div>
+        <div class="tl-title lang-en">Business geolocation platform</div>
+        <div class="tl-org lang-fr">Stage — MIC Consulting Group</div>
+        <div class="tl-org lang-en">Internship — MIC Consulting Group</div>
+        <ul class="tl-desc lang-fr">
+          <li>Développement d'une plateforme de géolocalisation des entreprises avec Laravel ; intégration de cartographie interactive et optimisation des requêtes.</li>
+          <li>Collaboration en équipe agile.</li>
+        </ul>
+        <ul class="tl-desc lang-en">
+          <li>Built a business geolocation platform with Laravel; integrated interactive mapping and optimized queries.</li>
+          <li>Worked within an agile team.</li>
+        </ul>
+        <div class="tag-row">
+          <span class="tag">Laravel</span><span class="tag">JavaScript</span><span class="tag">Leaflet</span><span class="tag">MySQL</span>
+        </div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-date"><span class="lang-fr">Juillet — Août 2024</span><span class="lang-en">July — Aug. 2024</span></div>
+        <div class="tl-title lang-fr">Gestion des cartes SIM &amp; tableau de bord</div>
+        <div class="tl-title lang-en">SIM card management &amp; dashboard</div>
+        <div class="tl-org lang-fr">Stage — RADEEMA, Marrakech</div>
+        <div class="tl-org lang-en">Internship — RADEEMA, Marrakech</div>
+        <ul class="tl-desc lang-fr">
+          <li>Application interne de gestion des cartes SIM et tableau de bord administratif avec Laravel.</li>
+          <li>Amélioration des processus de suivi et de reporting.</li>
+        </ul>
+        <ul class="tl-desc lang-en">
+          <li>Internal SIM card management application and admin dashboard built with Laravel.</li>
+          <li>Improved tracking and reporting processes.</li>
+        </ul>
+        <div class="tag-row">
+          <span class="tag">Laravel</span><span class="tag">MySQL</span><span class="tag">Bootstrap</span><span class="tag">Git</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projets">
+    <div class="sheet-index"><span class="lang-fr">Projets</span><span class="lang-en">Projects</span></div>
+    <h2 class="section-title display lang-fr">Projets IA &amp; Data Science</h2>
+    <h2 class="section-title display lang-en">AI &amp; Data Science Projects</h2>
+
+    <div class="proj-grid">
+
+      <div class="proj-card featured">
+        <span class="badge-new mono lang-fr">Nouveau</span>
+        <span class="badge-new mono lang-en">New</span>
+        <div>
+          <div class="proj-num mono lang-fr">P.01 — RAG · MULTILINGUE</div>
+          <div class="proj-num mono lang-en">P.01 — RAG · MULTILINGUAL</div>
+          <div class="proj-title lang-fr">Assistant conversationnel pour l'aéroport Marrakech-Menara</div>
+          <div class="proj-title lang-en">Conversational assistant for Marrakech-Menara Airport</div>
+          <div class="proj-org lang-fr">Capstone — ONDA (Office National Des Aéroports)</div>
+          <div class="proj-org lang-en">Capstone — ONDA (Moroccan Airports Authority)</div>
+          <p class="proj-desc lang-fr">Chatbot RAG répondant aux questions des passagers (documents de voyage, bagages, sécurité, compagnies, services aéroportuaires) en français, anglais et arabe. Le contenu d'onda.ma est scrapé, vectorisé (embeddings HuggingFace multilingues) puis indexé dans FAISS ; les réponses sont générées par Mistral via Ollama et orchestrées avec LangChain.</p>
+          <p class="proj-desc lang-en">RAG chatbot answering passenger questions (travel documents, baggage, security, airlines, airport services) in French, English, and Arabic. Content from onda.ma is scraped, vectorized (multilingual HuggingFace embeddings), and indexed in FAISS; answers are generated by Mistral via Ollama and orchestrated with LangChain.</p>
+          <div class="tag-row" style="margin-bottom:14px;">
+            <span class="tag">LangChain</span><span class="tag">FAISS</span><span class="tag">HuggingFace</span><span class="tag">Mistral / Ollama</span><span class="tag">Streamlit</span><span class="tag">BeautifulSoup</span>
+          </div>
+          <a class="proj-link lang-fr" href="https://github.com/badr-eddine1/ProjetAero" target="_blank" rel="noopener">Voir le code sur GitHub ↗</a>
+          <a class="proj-link lang-en" href="https://github.com/badr-eddine1/ProjetAero" target="_blank" rel="noopener">View code on GitHub ↗</a>
+        </div>
+        <div class="feat-visual">
+          <div class="mono lang-fr" style="color:var(--ink);margin-bottom:8px;">FLUX RAG</div>
+          <div class="mono lang-en" style="color:var(--ink);margin-bottom:8px;">RAG FLOW</div>
+          <div class="flow lang-fr">
+            <span>onda.ma</span>
+            <span class="arrow">↓ scraping (BeautifulSoup)</span>
+            <span>embeddings HF</span>
+            <span class="arrow">↓ indexation</span>
+            <span>FAISS (local)</span>
+            <span class="arrow">↓ retrieval</span>
+            <span>Mistral (Ollama)</span>
+            <span class="arrow">↓ réponse</span>
+            <span>Streamlit — FR / EN / AR</span>
+          </div>
+          <div class="flow lang-en">
+            <span>onda.ma</span>
+            <span class="arrow">↓ scraping (BeautifulSoup)</span>
+            <span>HF embeddings</span>
+            <span class="arrow">↓ indexing</span>
+            <span>FAISS (local)</span>
+            <span class="arrow">↓ retrieval</span>
+            <span>Mistral (Ollama)</span>
+            <span class="arrow">↓ response</span>
+            <span>Streamlit — FR / EN / AR</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="proj-card">
+        <div class="proj-num mono">P.02 — NLP</div>
+        <div class="proj-title lang-fr">Analyse de sentiment de critiques produits</div>
+        <div class="proj-title lang-en">Product review sentiment analysis</div>
+        <p class="proj-desc lang-fr">Pipeline sur 3.6M de critiques (FastText) : tokenization, lemmatisation, vectorisation TF-IDF, Régression Logistique optimisée via GridSearchCV. Déploiement d'une app Gradio pour prédictions en temps réel.</p>
+        <p class="proj-desc lang-en">Pipeline over 3.6M reviews (FastText): tokenization, lemmatization, TF-IDF vectorization, Logistic Regression tuned via GridSearchCV. Deployed as a Gradio app for real-time predictions.</p>
+        <div class="proj-metric mono lang-fr">Classification binaire — interface interactive</div>
+        <div class="proj-metric mono lang-en">Binary classification — interactive interface</div>
+        <div class="tag-row"><span class="tag">Python</span><span class="tag">NLTK</span><span class="tag">Scikit-learn</span><span class="tag">TF-IDF</span><span class="tag">Gradio</span></div>
+      </div>
+
+      <div class="proj-card">
+        <div class="proj-num mono lang-fr">P.03 — VISION · CNN</div>
+        <div class="proj-num mono lang-en">P.03 — VISION · CNN</div>
+        <div class="proj-title lang-fr">Détection de pneumonie sur radiographies</div>
+        <div class="proj-title lang-en">Pneumonia detection from chest X-rays</div>
+        <p class="proj-desc lang-fr">Modèles CNN (MobileNetV2, transfer learning, fine-tuning) pour la classification d'images médicales, avec interprétabilité des prédictions via Grad-CAM.</p>
+        <p class="proj-desc lang-en">CNN models (MobileNetV2, transfer learning, fine-tuning) for medical image classification, with prediction interpretability via Grad-CAM.</p>
+        <div class="proj-metric mono">Accuracy 95% — Grad-CAM</div>
+        <div class="tag-row" style="margin-bottom:10px;"><span class="tag">TensorFlow / Keras</span><span class="tag">MobileNetV2</span><span class="tag">Streamlit</span><span class="tag">OpenCV</span></div>
+        <a class="proj-link lang-fr" href="https://github.com/badr-eddine1/PneumoniaProject" target="_blank" rel="noopener">Voir le code sur GitHub ↗</a>
+        <a class="proj-link lang-en" href="https://github.com/badr-eddine1/PneumoniaProject" target="_blank" rel="noopener">View code on GitHub ↗</a>
+      </div>
+
+      <div class="proj-card">
+        <div class="proj-num mono lang-fr">P.04 — ML CLASSIQUE</div>
+        <div class="proj-num mono lang-en">P.04 — CLASSIC ML</div>
+        <div class="proj-title lang-fr">Prédiction du cancer du sein</div>
+        <div class="proj-title lang-en">Breast cancer prediction</div>
+        <p class="proj-desc lang-fr">Classification binaire avec comparaison d'algorithmes (Régression Logistique, Random Forest) et optimisation des hyperparamètres.</p>
+        <p class="proj-desc lang-en">Binary classification comparing algorithms (Logistic Regression, Random Forest) with hyperparameter tuning.</p>
+        <div class="proj-metric mono">Accuracy 96% — F1 0.94</div>
+        <div class="tag-row"><span class="tag">Scikit-learn</span><span class="tag">Pandas</span><span class="tag">GridSearchCV</span></div>
+      </div>
+
+      <div class="proj-card">
+        <div class="proj-num mono lang-fr">P.05 — RÉGRESSION</div>
+        <div class="proj-num mono lang-en">P.05 — REGRESSION</div>
+        <div class="proj-title lang-fr">Prédiction du prix des vols</div>
+        <div class="proj-title lang-en">Flight price prediction</div>
+        <p class="proj-desc lang-fr">Feature engineering avancé (dates, aéroports, compagnies) et modèles de régression (RandomForestRegressor, XGBoost).</p>
+        <p class="proj-desc lang-en">Advanced feature engineering (dates, airports, airlines) and regression models (RandomForestRegressor, XGBoost).</p>
+        <div class="proj-metric mono lang-fr">RMSE −22% — R² 0.87</div>
+        <div class="proj-metric mono lang-en">RMSE −22% — R² 0.87</div>
+        <div class="tag-row"><span class="tag">Python</span><span class="tag">Scikit-learn</span><span class="tag">Seaborn</span></div>
+      </div>
+
+      <div class="proj-card">
+        <div class="proj-num mono lang-fr">P.06 — REINFORCEMENT LEARNING</div>
+        <div class="proj-num mono lang-en">P.06 — REINFORCEMENT LEARNING</div>
+        <div class="proj-title lang-fr">Gestion intelligente du trafic urbain</div>
+        <div class="proj-title lang-en">Intelligent urban traffic management</div>
+        <div class="proj-org lang-fr">Projet d'équipe — Module IAD &amp; SMA</div>
+        <div class="proj-org lang-en">Team project — Distributed AI &amp; Multi-Agent Systems</div>
+        <p class="proj-desc lang-fr">Agent de Q-Learning tabulaire pilotant les feux d'une intersection à 4 voies (arrivées de véhicules selon un processus de Poisson) pour minimiser le temps d'attente total, entraîné sur 500 épisodes (espace d'états : 5184).</p>
+        <p class="proj-desc lang-en">Tabular Q-Learning agent controlling traffic lights at a 4-way intersection (vehicle arrivals as a Poisson process) to minimize total waiting time, trained over 500 episodes (state space: 5,184).</p>
+        <div class="proj-metric mono lang-fr">5 184 états — 500 épisodes d'entraînement</div>
+        <div class="proj-metric mono lang-en">5,184 states — 500 training episodes</div>
+        <div class="tag-row" style="margin-bottom:10px;"><span class="tag">Python</span><span class="tag">Q-Learning</span><span class="tag">NumPy</span><span class="tag">Matplotlib</span></div>
+        <a class="proj-link lang-fr" href="https://github.com/badr-eddine1/Gestion-intelligente-du-trafic-urbain" target="_blank" rel="noopener">Voir le code sur GitHub ↗</a>
+        <a class="proj-link lang-en" href="https://github.com/badr-eddine1/Gestion-intelligente-du-trafic-urbain" target="_blank" rel="noopener">View code on GitHub ↗</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="competences">
+    <div class="sheet-index"><span class="lang-fr">Compétences</span><span class="lang-en">Skills</span></div>
+    <h2 class="section-title display lang-fr">Boîte à outils</h2>
+    <h2 class="section-title display lang-en">Toolbox</h2>
+    <div class="skills-grid">
+      <div class="skill-cat">
+        <div class="skill-cat-label lang-fr">Data science &amp; IA</div>
+        <div class="skill-cat-label lang-en">Data science &amp; AI</div>
+        <div class="tag-row"><span class="tag">Machine Learning</span><span class="tag">Deep Learning</span><span class="tag">NLP</span><span class="tag">RAG / LLM</span><span class="tag">Reinforcement Learning</span><span class="tag">Scikit-learn</span><span class="tag">TensorFlow / Keras</span><span class="tag">NLTK</span></div>
+      </div>
+      <div class="skill-cat">
+        <div class="skill-cat-label lang-fr">Ingénierie logicielle</div>
+        <div class="skill-cat-label lang-en">Software engineering</div>
+        <div class="tag-row"><span class="tag">FastAPI</span><span class="tag">React</span><span class="tag">Playwright</span><span class="tag">APScheduler</span><span class="tag">LangChain</span><span class="tag">Laravel</span></div>
+      </div>
+      <div class="skill-cat">
+        <div class="skill-cat-label lang-fr">Données &amp; déploiement</div>
+        <div class="skill-cat-label lang-en">Data &amp; deployment</div>
+        <div class="tag-row"><span class="tag">SQL / PostgreSQL</span><span class="tag">MySQL</span><span class="tag">MongoDB</span><span class="tag">Gradio</span><span class="tag">Streamlit</span></div>
+      </div>
+      <div class="skill-cat">
+        <div class="skill-cat-label lang-fr">Langages &amp; outils</div>
+        <div class="skill-cat-label lang-en">Languages &amp; tools</div>
+        <div class="tag-row"><span class="tag">Python</span><span class="tag">JavaScript</span><span class="tag">C / C++ / Java</span><span class="tag">Git &amp; GitHub</span><span class="tag">Jupyter</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="formation">
+    <div class="sheet-index"><span class="lang-fr">Formation</span><span class="lang-en">Education</span></div>
+    <h2 class="section-title display lang-fr">Formation &amp; certifications</h2>
+    <h2 class="section-title display lang-en">Education &amp; certifications</h2>
+    <div class="edu-grid">
+      <div>
+        <div class="edu-item">
+          <div class="edu-date mono">2023 — 2026</div>
+          <div class="edu-title lang-fr">Élève ingénieur — Informatique, IA &amp; Data Science</div>
+          <div class="edu-title lang-en">Engineering student — Computer Science, AI &amp; Data Science</div>
+          <div class="edu-org">EMSI Marrakech (École Marocaine des Sciences de l'Ingénieur)</div>
+        </div>
+        <div class="edu-item">
+          <div class="edu-date mono">2022</div>
+          <div class="edu-title lang-fr">Filière Biologie, Chimie et Géologie</div>
+          <div class="edu-title lang-en">Biology, Chemistry &amp; Geology track</div>
+          <div class="edu-org">FST Marrakech</div>
+        </div>
+        <div class="edu-item">
+          <div class="edu-date mono">2021</div>
+          <div class="edu-title lang-fr">Baccalauréat Sciences Physiques, option Française</div>
+          <div class="edu-title lang-en">Baccalaureate, Physical Sciences (French track)</div>
+          <div class="edu-org">Lycée Wahat Ezzaitoun 2, Marrakech</div>
+        </div>
+      </div>
+      <div>
+        <ul class="cert-list">
+          <li><b>Introduction to Machine Learning</b> — Coursera</li>
+          <li><b>Introduction à Python</b> — Coursera</li>
+          <li><b>Introduction à Unix</b> — Coursera</li>
+          <li><b>Introduction to NoSQL Databases</b> — Coursera</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" style="border-bottom:none;">
+    <div class="sheet-index lang-fr">Contact</div>
+    <div class="sheet-index lang-en">Contact</div>
+    <div class="contact-box">
+      <div>
+        <div class="avail-pill lang-fr"><span class="pulse"></span> Disponible à partir de février 2026 — PFE, 6 mois</div>
+        <div class="avail-pill lang-en"><span class="pulse"></span> Available from February 2026 — final internship, 6 months</div>
+        <h2 class="section-title display lang-fr" style="margin-bottom:10px;">Discutons de votre projet.</h2>
+        <h2 class="section-title display lang-en" style="margin-bottom:10px;">Let's talk about your project.</h2>
+        <p class="about-text lang-fr" style="font-size:15px;">Ouvert aux échanges autour de l'IA appliquée, des systèmes LLM/RAG, et de l'ingénierie de données. Mobile sur le territoire national, permis B.</p>
+        <p class="about-text lang-en" style="font-size:15px;">Open to discussing applied AI, LLM/RAG systems, and data engineering. Available nationwide, driver's license (B).</p>
+      </div>
+      <div class="contact-list">
+        <div><span class="k lang-fr">Email</span><span class="k lang-en">Email</span> <a href="mailto:badreddineaitbenijja@gmail.com">badreddineaitbenijja@gmail.com</a></div>
+        <div><span class="k lang-fr">Téléphone</span><span class="k lang-en">Phone</span> <a href="tel:+212666638014">+212 6 66 63 80 14</a></div>
+        <div><span class="k lang-fr">Localisation</span><span class="k lang-en">Location</span> Mhamid, Marrakech</div>
+        <div><span class="k">GitHub</span> <a href="https://github.com/badr-eddine1" target="_blank" rel="noopener">github.com/badr-eddine1</a></div>
+        <div><span class="k">LinkedIn</span> <a href="https://www.linkedin.com/in/badr-ait-ben-ijja-6a321a283/" target="_blank" rel="noopener">linkedin.com/in/badr-ait-ben-ijja</a></div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  <span class="lang-fr">AIT BEN IJJA BADR-EDDINE — Portfolio IA &amp; Data Science — Marrakech, Maroc</span>
+  <span class="lang-en">AIT BEN IJJA BADR-EDDINE — AI &amp; Data Science Portfolio — Marrakech, Morocco</span>
+</footer>
+
+<script>
+(function(){
+  var root = document.documentElement;
+  var themeBtn = document.getElementById('theme-toggle');
+  var langBtn = document.getElementById('lang-toggle');
+
+  function getStored(key){
+    try { return localStorage.getItem(key); } catch(e){ return null; }
+  }
+  function setStored(key, val){
+    try { localStorage.setItem(key, val); } catch(e){}
+  }
+
+  // THEME
+  var storedTheme = getStored('badr-portfolio-theme');
+  if(storedTheme === 'light' || storedTheme === 'dark'){
+    root.setAttribute('data-theme', storedTheme);
+  }
+  themeBtn.addEventListener('click', function(){
+    var current = root.getAttribute('data-theme');
+    var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    var effectiveDark = current ? current === 'dark' : prefersDark;
+    var next = effectiveDark ? 'light' : 'dark';
+    root.setAttribute('data-theme', next);
+    setStored('badr-portfolio-theme', next);
+  });
+
+  // LANGUAGE
+  var storedLang = getStored('badr-portfolio-lang');
+  function applyLang(lang){
+    if(lang === 'en'){
+      root.setAttribute('data-lang', 'en');
+      langBtn.textContent = 'FR';
+    } else {
+      root.removeAttribute('data-lang');
+      langBtn.textContent = 'EN';
+    }
+  }
+  applyLang(storedLang === 'en' ? 'en' : 'fr');
+  langBtn.addEventListener('click', function(){
+    var isEn = root.getAttribute('data-lang') === 'en';
+    var next = isEn ? 'fr' : 'en';
+    applyLang(next);
+    setStored('badr-portfolio-lang', next);
+  });
+})();
+</script>
+</body>
+</html>
